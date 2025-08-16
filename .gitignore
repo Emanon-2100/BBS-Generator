@@ -1,0 +1,30 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境 (绝不能上传)
+.venv/
+venv/
+env/
+*/envs/
+
+# IDE/编辑器 个人配置
+.vscode/
+.idea/
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略最终的Word报告文档
+*.docx
+*.pdf
+
+# 忽略TensorBoard的运行日志 (如果存在)
+runs/
+
+# 忽略数据分析的中间结果 (如果存在)
+data_analysis_results/
+
+# 忽略所有outputs文件夹下的模型文件
+outputs/final_model/*
